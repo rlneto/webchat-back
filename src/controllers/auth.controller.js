@@ -1,4 +1,5 @@
 export const signup = (req, res) => {
+	const { fullName, email, password } = req.body;
 	res.send("Rota de signup");
 };
 export const login = (req, res) => {
