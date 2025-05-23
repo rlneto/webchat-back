@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
+  "type": "module",
   "author": "Rudolfo Lange Neto",
   "license": "ISC",
   "description": "",
